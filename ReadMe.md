@@ -73,3 +73,14 @@ clone the git folder with the file structure as follows.<br>
 
 ## Contact Information
 For any issues or questions, please contact *Hrishikesh Ravindra Karande* at [210010020@iitdh.ac.in].
+
+## Performance Optimization
+Parallel Scraping with ThreadPoolExecutor:
+
+1. Utilized concurrent.futures.ThreadPoolExecutor to perform multiple scraping tasks concurrently.
+This allows the script to scrape data from multiple pages or years simultaneously, thereby reducing overall execution time.
+Random Delays Between Requests:
+
+2. Introduced random delays (time.sleep(random.uniform(1, 3))) between successive requests within each scraping function.
+These delays simulate human-like behavior and reduce the load on the target website's servers by spacing out requests.
+Prevents overwhelming the server with a barrage of rapid requests, which could lead to IP blocking or throttling.
