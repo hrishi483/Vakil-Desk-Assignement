@@ -24,9 +24,9 @@ This project contains a web scraper that extracts data from specific websites an
      ```
    - MongoDB should be accessible at `localhost:27017`.
 
-### Running the Executable
-1. **Extract the Contents:**
-   - Download and extract the `submission.zip` archive.
+### Running the Application: 
+1. **Clone Repository**
+   - Clone the repository as `git clone https://github.com/hrishi483/Vakil-Desk-Assignement`.
 
 2. **Run the Executable:**
    - Navigate to the `dist` directory and double-click `web_scraper.exe` or run it from the command line:
@@ -63,7 +63,7 @@ The script scrapes data from three specific websites and stores the data in Mong
 - The script prints success messages to the console during execution.
 
 ## Submission Structure
-The structure of Submission.zip file is as follows.<br>
+clone the git folder with the file structure as follows.<br>
     ├── dist/                    
     │   ├── web_scraper.exe      
     ├── web_scraper.py           
