@@ -75,4 +75,4 @@ submission.zip
 
 
 ## Contact Information
-For any issues or questions, please contact [Hrishikesh Ravindra Karande] at [210010020@iitdh.ac.in].
+For any issues or questions, please contact *Hrishikesh Ravindra Karande* at [210010020@iitdh.ac.in].
