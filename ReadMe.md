@@ -63,16 +63,13 @@ The script scrapes data from three specific websites and stores the data in Mong
 - The script prints success messages to the console during execution.
 
 ## Submission Structure
-The structure of Submission.zip file is as follows:
-submission.zip
-|-- dist/
-|   |-- web_scraper.exe
-|-- web_scraper.py
-|-- scraping.log (example log file)
-|-- web_scraper.spec (optional)
-|-- README.md
-
-
+The structure of Submission.zip file is as follows.<br>
+    ├── dist/                    
+    │   ├── web_scraper.exe      
+    ├── web_scraper.py           
+    ├── scraping.log             
+    ├── web_scraper.spec         
+ 
 
 ## Contact Information
 For any issues or questions, please contact *Hrishikesh Ravindra Karande* at [210010020@iitdh.ac.in].
