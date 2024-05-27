@@ -84,3 +84,8 @@ Random Delays Between Requests:
 2. Introduced random delays (time.sleep(random.uniform(1, 3))) between successive requests within each scraping function.
 These delays simulate human-like behavior and reduce the load on the target website's servers by spacing out requests.
 Prevents overwhelming the server with a barrage of rapid requests, which could lead to IP blocking or throttling.
+
+## Python modules used:
+- **selenium** for Dynamic Websites built using JavaScript/AJAX. To wait for the proper loading of the website before we start scraping it.
+- **BeautifulSoup**: Lightweight as compared to selenium, to scrap data from websites with  HTML content.
+- **pymongo**: To store the collected data from the various websites in a MongoDB DataBase. This is NoSQL Database.
